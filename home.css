@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Apply grey color to the header */
+header {
+    background-color: #5e5c5c; /* You can adjust the color code as needed */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+
+/* Style for the navbar */
+nav {
+    background-color: #ffffff; /* Navbar background color */
+}
+
+/* Style for the navbar links */
+nav a {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Add a responsive design for the navbar */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Style for the footer content */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style for the contact information */
+.contact-info {
+    flex: 1 1 300px;
+}
+
+/* Style for the quick links, chiropodists, treatments, business hours, and foot issues sections */
+.quick-links,
+.chiropodists,
+.treatments,
+.business-hours,
+.foot-issues {
+    flex: 1 1 200px;
+}
+
+/* Style for the unordered lists in the footer */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the links in the footer */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Add a responsive design for the footer content */
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .quick-links,
+    .chiropodists,
+    .treatments,
+    .business-hours,
+    .foot-issues {
+        margin-top: 20px;
+    }
+}
